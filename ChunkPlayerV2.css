@@ -1,0 +1,51 @@
+/*
+Chunk Player V2
+*/
+.chunkPlayer{
+    position: relative;
+    border: 2px solid #3B88C3;
+}
+.chunkPlayer .chunkControls{
+    text-align: center;
+    opacity: 1;
+    background: rgba(51, 48, 48, 0.8);
+    bottom: 0;
+    position: absolute;
+    color: #3498db;
+    z-index: 4;
+    width: 100%;
+}
+.chunkPlayer .chunkControls:hover {
+    opacity: 1;
+}
+.chunkPlayer .control_btn {
+  background-color: #3B88C3; 
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  text-align: center;
+  margin: 3px;
+  cursor: pointer;
+  border-radius: 14px;
+  font-size: 14px;
+  width: auto;
+}
+
+.chunkPlayer .bkd_btn::before{
+    content: "\23EA";
+}
+.chunkPlayer .fwd_btn::before{
+    content: "\23E9";
+}
+.chunkPlayer .to_strt::before{
+    content: "\23EE";
+}
+.chunkPlayer .play::before{
+    content: "\23F5";
+}
+.chunkPlayer .pause::before{
+    content: "\23F8";
+}
+.chunkPlayer .full_s::before{
+    content: "\26F6";
+}
